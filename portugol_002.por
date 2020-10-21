@@ -10,6 +10,7 @@ programa
 		
 		escreva("Informe o nome do aluno(a): ")
 			leia(nome)
+			escreva("\n")
 
 		escreva("Informe a primeira nota: ")
 			leia(n1)
@@ -25,8 +26,10 @@ programa
 
 			media = (n1+n2+n3+n4)/4
 
-		
-		escreva("A média do aluno(a) " + nome + " foi " + media)
+		escreva("\n" + "********************" + "\n")
+		escreva("ALUNO(A): " + nome + "\n") 
+		escreva("MEDIA: " + media)
+		escreva("\n" + "********************")
 		 
 		
 	}
@@ -36,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 419; 
+ * @POSICAO-CURSOR = 406; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
