@@ -29,9 +29,17 @@ programa
 		escreva("\n" + "********************" + "\n")
 		escreva("ALUNO(A): " + nome + "\n") 
 		escreva("MEDIA: " + media)
-		escreva("\n" + "********************")
-		 
-		
+		escreva("\n" + "********************" + "\n")
+
+			se(media>=7) {
+				escreva("STATUS: APROVADO" + "\n")
+			}
+			senao {
+		 		escreva("STATUS: REPROVADO" + "\n")
+			}
+
+		escreva("********************")
+			
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -39,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 406; 
+ * @POSICAO-CURSOR = 685; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
