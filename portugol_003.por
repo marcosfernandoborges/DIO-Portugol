@@ -53,8 +53,9 @@ programa
 
 		 		mediavendas = (janeiro + fevereiro + marco + abril + maio + junho + julho + agosto + setembro + outubro + novembro + dezembro) / 12
 
-
+			escreva("\n" + "*****************************")
 			escreva("\n" + "NOME: " + nome + "\n" + "MEDIA DE VENDAS: " + mediavendas + "\n")
+			escreva("*****************************" + "\n")
 		 
 	}
 }
@@ -63,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1338; 
+ * @POSICAO-CURSOR = 1419; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
