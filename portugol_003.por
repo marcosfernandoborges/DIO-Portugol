@@ -11,6 +11,7 @@ programa
 
 			escreva("INFORME O NOME DO VENDEDOR(A): ")
 			leia(nome)
+			escreva("\n")
 		
 
 			escreva("Informe o valor de vendas de Janeiro: ")
@@ -53,7 +54,7 @@ programa
 		 		mediavendas = (janeiro + fevereiro + marco + abril + maio + junho + julho + agosto + setembro + outubro + novembro + dezembro) / 12
 
 
-			escreva("*** NOME *** " + nome + " *** MEDIA DE VENDAS *** " + mediavendas)
+			escreva("\n" + "NOME: " + nome + "\n" + "MEDIA DE VENDAS: " + mediavendas + "\n")
 		 
 	}
 }
@@ -62,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1316; 
+ * @POSICAO-CURSOR = 1338; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
